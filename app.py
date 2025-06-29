@@ -13,7 +13,10 @@ scaler = StandardScaler()
 
 
 # Títulos y carga de archivo
-st.title("Visualización y Clusterización automática de Data de Estudiantes")
+st.title("Sistema predictivo de alerta temprana con IA no supervisada para la prevención de la deserción estudiantil en instituciones públicas de Educación Superior en el Perú")
+
+
+
 st.write("Cargue el archivo PKL para visualizar el análisis de su contenido.")
 uploaded_file = st.file_uploader("Cargar archivo: ", type='pkl')
 
